@@ -36,7 +36,7 @@ body {
   content: "";
   position: absolute;
   top: -50px; /* Adjust to position the image */
-  left: 10px; /* Adjust to position the image */
+  left: 30px; /* Adjust to position the image */
   right: 20px; /* Adjust to position the image */
   height: 250px; 
   padding-top: 0px;
@@ -57,7 +57,7 @@ body {
   border-radius: 2px;
   border-color: transparent;
   width: 100%;
-  height: 550px;
+  height: 600px;
   max-width: 1100px; /* Adjust based on your design */
   position: relative; /* Added position relative */
   z-index: 2; /* Ensure it's on top of the background image */

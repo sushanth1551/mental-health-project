@@ -27,9 +27,10 @@ const LandingPage = () => {
         <div className="text">
           <span style={{ fontFamily: "sans-serif" }}>BRO!<br />HOW ARE YOU?</span>
 
-          <h3 className="light" style={{ marginTop: "20px", fontSize: "100px", fontFamily: 'commissioner' }}>SAHAYA</h3>
+          <h3 className="light" style={{ marginTop: "20px", fontSize: "100px", fontFamily: 'commissioner' }}>SAHAYA
 
           <h3 style={{fontSize: 30}}>THE AI THAT UNDERSTANDS YOU!</h3>
+          </h3>
 
                 
                 <button 

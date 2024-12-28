@@ -66,8 +66,8 @@ function Login() {
               Submit
             </button>
           </div>
-          <b><p className="forgot-password text-right">
-            New user? <a href="/register"><span style={{color:"black"}}>Register Here</span></a>
+          <b><p className="forgot-password text-center">
+            New user? <a href="/register"><span style={{color:"black "}}>Register Here</span></a>
           </p></b>
           <SignInwithGoogle />
         </form>

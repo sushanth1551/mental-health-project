@@ -43,7 +43,7 @@ function Register() {
     <div className="auth-wrapper">
       <div className="auth-inner">
         <form onSubmit={handleRegister}>
-          <h3><b>Sign Up</b></h3>
+          <h3 style={{color:"black" , fontFamily:"poppins", fontSize:"25px"}}><b>SIGN UP</b></h3>
 
           <div className="mb-3">
             <b><label htmlFor="firstName">First Name</label></b>
@@ -101,10 +101,12 @@ function Register() {
               Sign Up
             </button></b>
           </div>
-          <b><p className="forgot-password text-right mt-2 mr-14 font-size: '30px'">
+          <h1>
+          <b><p className="forgot-password text-center mt-5 mr-05 font-size: '100px'">
             Already registered? <a href="/login"> <span style={{color:"black"}}>Login</span></a>
           </p>
           </b>
+          </h1>
         </form>
       </div>
     </div>

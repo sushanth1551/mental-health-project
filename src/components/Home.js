@@ -169,8 +169,8 @@ const Home = () => {
 
       {/* Emoji Section */}
 
-      <div style={{ textAlign: "center", marginBottom: "80px", margin: "20px" ,marginTop:"100px"}}>
-  <h2 style={{ marginBottom: "40px", color: "Black" ,fontsize:"300px"}}>Express Your Feelings</h2>
+      <div style={{ textAlign: "center", marginBottom: "80px", margin: "20px", marginTop: "100px" }}>
+  <h2 style={{ marginBottom: "40px", color: "Black", fontSize: "3rem" }}>Express Your Feelings</h2>
   <motion.div
     style={{
       fontSize: "3rem", // Increased font size for larger icons
@@ -182,28 +182,30 @@ const Home = () => {
     animate={{ scale: 1 }}
     transition={{ duration: 0.5 }}
   >
- <img
-          src="/images/notes.jpg"
-          alt="Notepad"
-          title="Notepad"
-          style={{ width: "50px", height: "50px", cursor: "pointer" }}
-          onClick={() => navigate("/notes")}
-        />
-        <img
-          src="/images/scribble.png"
-          alt="Scribble Pad"
-          title="Scribble Pad"
-          style={{ width: "50px", height: "50px", cursor: "pointer" }}
-          onClick={() => navigate("/scribblepad")}
-        />
+    <img
+      src="/images/notes.jpg"
+      alt="Notepad"
+      title="Notepad"
+      style={{ width: "70px", height: "70px", cursor: "pointer" }}
+      onClick={() => navigate("/notes")}
+    />
+    <img
+      src="/images/scribble.png"
+      alt="Scribble Pad"
+      title="Scribble Pad"
+      style={{ width: "70px", height: "70px", cursor: "pointer" }}
+      onClick={() => navigate("/scribblepad")}
+    />
     <FaRobot
-      style={{ color: "gray", cursor: "pointer" }}
+      style={{ color: "gray", cursor: "pointer",width: "70px", height: "70px" }}
       title="Need Help"
+      
       onClick={() => navigate("/Model")}
     />
     <FaHandshake
-      style={{ color: "green", cursor: "pointer" }}
+      style={{ color: "green", cursor: "pointer",width: "70px", height: "70px" }}
       title="Professional Help"
+     
       onClick={() => navigate("/Consultancy")}
     />
   </motion.div>

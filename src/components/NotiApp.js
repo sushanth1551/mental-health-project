@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { NotificationForm } from './NotificationForm';
 import { NotificationList } from './NotificationList';
-import { Link }from "react-router-dom";
+import { Link } from 'react-router-dom';
 import { Bell } from 'lucide-react';
 import Nav from './Nav';
-
 
 const Notiapp = () => {
   const [notifications, setNotifications] = useState([]);
@@ -33,9 +32,8 @@ const Notiapp = () => {
   return (
     <>
       <Nav />
-      {/* Adjusted the margin-top to `mt-16` to ensure the content is placed below the navbar */}
-      <div className="max-h-screen bg-gray-50 mt-900">
-        <div className="max-w-2xl mx-auto p-6">
+      <div className="max-h-screen bg-gray-50 mt-16">
+        <div className="max-w-8xl mx-auto p-4">
           <div className="text-center mb-8">
             <div className="inline-block p-3 bg-blue-100 rounded-full mb-4">
               <Bell className="h-8 w-8 text-blue-600" />
@@ -80,7 +78,6 @@ const Notiapp = () => {
       >
         Back
       </Link>
-
     </>
   );
 };
