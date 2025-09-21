@@ -17,14 +17,17 @@ To set up the project locally:
 
 Clone the repository:
 
-``` git clone https://github.com/sushanth1551/mental-health-project.git
+```bash
+git clone https://github.com/sushanth1551/mental-health-project.git
 cd mental-health-project
 ```
 
 
 ## Install dependencies:
 
-```npm install```
+```bash
+npm install
+```
 
 
 ### Set up environment variables:
@@ -32,7 +35,7 @@ cd mental-health-project
 Create a .env file in the root directory.
 
 Add your Firebase and Groq API keys:
-```
+```env
 REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
@@ -44,7 +47,9 @@ REACT_APP_GROQ_API_KEY=your_groq_api_key
 
 ### Start the development server:
 
+``` bash
 npm start
+```
 
 ## Usage
 
@@ -60,12 +65,12 @@ Upon launching the application, users can:
 
 Contributions are welcome! To contribute:
 
-Fork the repository.
+- Fork the repository.
 
-Create a new branch (git checkout -b feature-name).
+- Create a new branch (git checkout -b feature-name).
 
-Commit your changes (git commit -am 'Add feature').
+- Commit your changes (git commit -am 'Add feature').
 
-Push to the branch (git push origin feature-name).
+- Push to the branch (git push origin feature-name).
 
-Create a new Pull Request.
+- Create a new Pull Request.
